@@ -10,7 +10,7 @@ public class Test {
         InvocationHandler handler = new WorkHandler(people);
 
         People proxy = (People)Proxy.newProxyInstance(people.getClass().getClassLoader(), people.getClass().getInterfaces(), handler);
-        People p = proxy.work("写代码").work("开会").work("上课");
+        People p = proxy.work("写代码 ").work("开会").work("上课");
 
         System.out.println("打印返回的对象");
         System.out.println(p.getClass());
