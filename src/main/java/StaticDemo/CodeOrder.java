@@ -7,6 +7,8 @@ public class CodeOrder{
 	public static void main(String[] args){
 		System.out.println("y");
 		new CodeOrder();
+		System.out.println("----");
+		new CodeOrder();
 		System.out.println("z");
 	}
 	//构造方法
