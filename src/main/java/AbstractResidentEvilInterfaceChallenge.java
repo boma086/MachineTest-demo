@@ -8,7 +8,7 @@ public class AbstractResidentEvilInterfaceChallenge {
     Zombie.zombie.shoot();
     zombie.shoot();
     nemesis.shoot();
-    System.out.println("Nemesis shoots: " + nemesis.shoots +
+    System.out.println("Nemes is shoots: " + nemesis.shoots +
         " and raids: " + nemesisRaids);
   }
 }
